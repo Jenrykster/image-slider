@@ -5,3 +5,39 @@ body {
     color: greenyellow;
     font-family: 'Nunito', sans-serif;
 }
+.img-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.arrow {
+    font-size: 5em;
+    padding: 10px;
+    transition: 0.2s;
+}
+.arrow:hover {
+    background-color: greenyellow;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.frame {
+    background-color: greenyellow;
+    width: 500px;
+    height: 350px;
+    margin: 0px 50px;
+    overflow: hidden;
+}
+.img-container {
+    display: flex;
+    margin-left: 0px;
+}
+img {
+    width: 500px;
+    height: 350px;
+}
+.img-selector {
+    margin: 0% 20%;
+}
