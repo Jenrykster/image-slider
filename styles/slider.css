@@ -33,6 +33,7 @@ body {
 .img-container {
     display: flex;
     margin-left: 0px;
+    transition: 0.3s;
 }
 img {
     width: 500px;
